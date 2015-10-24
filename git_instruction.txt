@@ -1,0 +1,17 @@
+﻿GIT Hub:
+
+1. zpeng-projects --- gf1234
+2. procedure:
+1.if you want to create a local repo from a remote repo : go to local directory, and git clone https://github.com/zpeng-projects/myopencv.git. It will clone the repo on your local machine : no need to make a directory;
+2. if you start from local:
+	a. mkdir myopencv
+         	b. cd myopencv
+c. git init
+e. move files in the directory
+f. git add .
+g. git commt -m “...”
+h. go to github, create a new repo with the name some name MMM**
+I . locally, git remote add origin https://github.com/zpeng-projects/MMM**
+J. git push -u origin master 
+K. user name: zpeng-projects		password: gf1234
+
